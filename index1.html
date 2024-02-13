@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hi page is loading</h1>
+    <script>
+
+ var a=document.createElement("button")
+document.body.appendChild(a)
+a.innerText="back"
+a.style.width="100px"
+a.style.height="60px"
+a.addEventListener("click",hello)
+function hello() {
+
+window.location.assign("./index.html")
+
+}
+
+
+    </script>
+</body>
+</html>
